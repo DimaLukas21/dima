@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Позиционирование</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+    div{
+        border: 2px solid red;
+    }
+    img{
+        /*border: 1px dotted lightgrey;*/
+        position: absolute;
+    }
+    .Relative{
+        position: relative;
+    }
+    .Absol1{
+        top: 10px;
+        left: 10px;
+        z-index: 30;
+    }
+    .Absol2{
+        top: 100px;
+        left: 100px;
+        z-index: 20;
+    }
+    .Absol3{
+        top: 200px;
+        left: 200px;
+        z-index: 30;
+    }
+    /*button{
+        position: fixed;
+        right: 10px;
+        top: 10px;
+    }*/
+    </style>
+</head>
+<body>
+    <div class="Relative">
+        <!--<button>Кнопка фикс</button>-->
+        <img class="Absol1" src="/icon/cookie.png" width="200px">
+        <img class="Absol2" src="/icon/cookie.png" width="200px">
+        <img class="Absol3" src="/icon/cookie.png" width="200px">
+    </div>
+    <!--<div>  
+        <img src="/icon/cookie.png">
+        <img src="/icon/cookie.png">
+    </div>-->
+</body>
+</html>

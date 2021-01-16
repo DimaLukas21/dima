@@ -1,0 +1,19 @@
+#bold{
+    font-weight: bold;
+}
+#italic{
+    font-style: italic;
+}
+#underLine{
+    text-decoration: underline;
+}
+#overLine{
+    text-decoration: overline;
+}
+#lineThrough{
+    text-decoration: line-through;
+}
+#body{
+    background: 45deg,yellow,green;
+}
+body{background: pink;}
